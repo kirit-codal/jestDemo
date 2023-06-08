@@ -38,3 +38,8 @@ If we want to update current component snapshot
 ```sh
 npm test -- -u  
 ```
+
+Coverage & test case example
+
+<img width="1134" alt="Screenshot 2023-06-08 at 7 04 03 PM" src="https://github.com/kirit-codal/jestDemo/assets/97145236/d516a57d-8506-4943-a4d1-4a93b3664e06">
+
