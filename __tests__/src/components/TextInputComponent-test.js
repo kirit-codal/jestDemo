@@ -6,7 +6,7 @@ describe('Group Text Input Props', () => {
   const placeholder = 'Enter email id';
   const defaultValue = 'Initial value';
 
-  let component: ReactTestRenderer | undefined;
+  let component;
 
   // act used when component re-rendering/update with state.
   act(() => {
@@ -18,7 +18,7 @@ describe('Group Text Input Props', () => {
     );
   });
 
-  const textInputInstance = component!.root.findByProps({
+  const textInputInstance = component.root.findByProps({
     testID: 'myTextInput',
   });
 

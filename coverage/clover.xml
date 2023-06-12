@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1686217929021" clover="3.2.0">
-  <project timestamp="1686217929021" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="23" coveredelements="23" complexity="0" loc="16" ncloc="16" packages="3" files="4" classes="4"/>
+<coverage generated="1686554102177" clover="3.2.0">
+  <project timestamp="1686554102177" name="All files">
+    <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="1" methods="9" coveredmethods="9" elements="32" coveredelements="31" complexity="0" loc="21" ncloc="21" packages="3" files="5" classes="5"/>
     <package name="jestDemo">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="App.tsx" path="/Users/kiritmodi/Documents/jestDemo/App.tsx">
-        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="35" count="8" type="stmt"/>
         <line num="36" count="8" type="stmt"/>
         <line num="45" count="2" type="stmt"/>
@@ -32,11 +32,19 @@
       </file>
     </package>
     <package name="jestDemo.src.utils">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="sum.tsx" path="/Users/kiritmodi/Documents/jestDemo/src/utils/sum.tsx">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+      <file name="sum.js" path="/Users/kiritmodi/Documents/jestDemo/src/utils/sum.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
+      </file>
+      <file name="validator.js" path="/Users/kiritmodi/Documents/jestDemo/src/utils/validator.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
       </file>
     </package>
   </project>
